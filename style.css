@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #8b5cf6;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 450px) {
+    #mother {
+        padding: 150px 10px 0 10px;
+        height: 500px;
+    }
+
+    #natija {
+        font-size: 25px;
+    }
+}

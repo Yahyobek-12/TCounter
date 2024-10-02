@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCouter</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100">
+
+    <div class="w-full h-12 border-b-2 border-purple-300 fixed flex items-center justify-center">
+        <a href="https://yahyobek.vercel.app/projects">Boshqa Loyhalarni K'rish</a>
+    </div>
+   
+    <div id="mother" class="w-full h-screen py-24 px-16">
+        <h1 class="text-3xl font-bold text-black"><span class="">T</span>Counter</h1>
+        <div class="w-full mt-4 h-[100px] py-2 px-2 rounded-md flex items-center bg-gray-200">
+            <i class="fas fa-pen py-3 px-3 "></i>
+            <input type="text" placeholder="Biror nima yozing..." class="px-2 w-full py-2 bg-transparent outline-none text-black">
+        </div>
+        <div class="w-full mt-2">
+            <button class="rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-purple-600 active:shadow-none shadow-lg bg-gradient-to-tr from-purple-600 to-purple-500 border-purple-700 w-full active:mt-2">
+                <span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-32 group-hover:h-32 opacity-10"></span>
+                <span class="relative text-white">Button Text</span>
+            </button>
+        </div>
+
+        <div class="w-full h-32 mt-12">
+            <h1 id="natija" class="text-4xl font-bold mb-4">Sizning Natijangiz...</h1>
+            <b class="text-2xl">Nimadir yozing</b>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
